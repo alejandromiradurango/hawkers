@@ -15,10 +15,13 @@
     <?php 
         include("src/components/header.php");
         include("src/components/banners.php");
+        include("src/components/buy.php");
+        include("src/components/colaborations.php");
         include("src/components/cta.php");
         echo CTA('#', 'https://www.hawkersco.com/on/demandware.static/-/Library-Sites-Hawkers_Co_SharedLibrary/default/dw4331189c/images/homepage/DROP5-SS23/ES_2600X600_BANNER_DROP5_2023_D.jpg');
         include("src/components/collections.php");
         echo CTA('#', 'https://www.hawkersco.com/on/demandware.static/-/Library-Sites-Hawkers_Co_SharedLibrary/default/dw10fa6d50/images/homepage/FIESTA-ANIVERSARIO/2600x600_BANNER_HAWKERSX_2023_D.jpg');
+        include ("src/components/footer.php")
     ?> 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
